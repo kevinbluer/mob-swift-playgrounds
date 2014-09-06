@@ -11,4 +11,6 @@ testLabel.layer.cornerRadius = 20
 
 testLabel
 
-// TODO - Change some properties such as text, color, radius, etc
+// TODO - Change properties such as text, color, radius, etc
+
+
