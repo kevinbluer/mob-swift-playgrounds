@@ -7,4 +7,5 @@ greet("Bob", "Tuesday")
 
 // TODO - Change the parameters to include your own name and today
 
+// TODO - Create a new function to take two integers, multiply them together and return the result
 

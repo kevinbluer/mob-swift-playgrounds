@@ -11,7 +11,6 @@
 		2366EF7619B2D69900E7C85D /* 1-Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1-Basics.playground"; sourceTree = "<group>"; };
 		2366EF7719B2E4CE00E7C85D /* X-FixMePlease.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "X-FixMePlease.playground"; sourceTree = "<group>"; };
 		2366EF7819B2E51700E7C85D /* 4-Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4-Functions.playground"; sourceTree = "<group>"; };
-		2366EF7A19B2E5AA00E7C85D /* GuidedTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GuidedTour.playground; sourceTree = "<group>"; };
 		2366EF8C19B7167100E7C85D /* 5-Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5-Classes.playground"; sourceTree = "<group>"; };
 		2366EF8D19B7193100E7C85D /* 6-Visual.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6-Visual.playground"; sourceTree = "<group>"; };
 		2366EF8E19B7270C00E7C85D /* 0-HelloWorld.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0-HelloWorld.playground"; sourceTree = "<group>"; };
@@ -22,7 +21,6 @@
 		23B9E0FC19B2D3BF001AFA50 = {
 			isa = PBXGroup;
 			children = (
-				2366EF7A19B2E5AA00E7C85D /* GuidedTour.playground */,
 				2366EF8E19B7270C00E7C85D /* 0-HelloWorld.playground */,
 				2366EF7619B2D69900E7C85D /* 1-Basics.playground */,
 				2366EF7519B2D5F200E7C85D /* 2-ControlFlow.playground */,
