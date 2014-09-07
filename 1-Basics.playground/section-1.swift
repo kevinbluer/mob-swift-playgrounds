@@ -44,7 +44,7 @@ let width: Int = 94
 var widthLabel = label + String(width)
 
 //
-// TODO - try removing the string convers
+// TODO - try removing the string conversion
 
 let apples = 3
 let oranges = 5
