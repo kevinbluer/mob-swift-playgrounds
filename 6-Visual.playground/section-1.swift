@@ -7,7 +7,7 @@ testLabel.text = "Hello, Swift!"
 testLabel.backgroundColor = UIColor(red: 0.9, green: 0.2, blue: 0.2, alpha: 1.0)
 testLabel.textAlignment = NSTextAlignment.Center
 testLabel.layer.masksToBounds = true
-testLabel.layer.cornerRadius = 20
+testLabel.layer.cornerRadius = 21
 
 testLabel
 

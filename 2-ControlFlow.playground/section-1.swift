@@ -2,7 +2,7 @@
 
 
 var myFirstArray: [String] = []
-myFirstArray = ["red", "green", "blue"]
+myFirstArray = ["red", "green", "blue", "orange"]
 
 for var x = 0; x < myFirstArray.count; x++ {
     println(myFirstArray[x])
@@ -10,7 +10,7 @@ for var x = 0; x < myFirstArray.count; x++ {
 
 
 
-let individualScores = [75, 43, 103, 87, 12]
+let individualScores = [75, 43, 103, 87, 12, 24, 23]
 var teamScore = 0
 for score in individualScores {
     if score > 50 {
@@ -30,7 +30,7 @@ case "celery":
     let vegetableComment = "Add some raisins and make ants on a log."
 case "cucumber", "watercress":
     let vegetableComment = "That would make a good tea sandwich."
-case let x where x.hasPrefix("red"):
+case let x where x.hasSuffix("per"):
     let vegetableComment = "Is it a spicy \(x)?"
 default:
     let vegetableComment = "Everything tastes good in soup."

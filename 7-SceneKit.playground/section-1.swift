@@ -21,6 +21,7 @@ var camera = SCNCamera()
 var cameraNode = SCNNode()
 cameraNode.camera = camera
 cameraNode.position = SCNVector3(x: 0, y: 0, z: 3)
+//cameraNode.rotation = SCNVector4(x: 45, y: 45, z: 0, w: 0)
 scene.rootNode.addChildNode(cameraNode)
 
 // a geometry object
@@ -29,13 +30,13 @@ var torusNode = SCNNode(geometry: torus)
 scene.rootNode.addChildNode(torusNode)
 
 // configure the geometry object
-torus.firstMaterial.diffuse.contents  = NSColor.redColor()
-torus.firstMaterial.specular.contents = NSColor.whiteColor()
+torus.firstMaterial?.diffuse.contents  = NSColor.blueColor()
+torus.firstMaterial?.specular.contents = NSColor.whiteColor()
 
 
 // animate the rotation of the torus
 var spin = CABasicAnimation(keyPath: "rotation")
-spin.toValue = NSValue(SCNVector4: SCNVector4(x: 1, y: 1, z: 0, w: 2.0*M_PI))
+spin.toValue = NSValue(SCNVector4: SCNVector4(x: 1, y: 1, z: 0, w: CGFloat(2.0*M_PI)))
 spin.duration = 3
-spin.repeatCount = HUGE // for infinity
+spin.repeatCount = -1 // for infinity
 torusNode.addAnimation(spin, forKey: "spin around")

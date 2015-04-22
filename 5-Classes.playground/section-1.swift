@@ -17,6 +17,15 @@ myShape.simpleDescription()
 // TODO - Add an additional property and function
 
 
+class Color {
+    var myColor: String?
+}
+
+var color:Color = Color()
+color.myColor = "orange"
+
+println(color.myColor!)
+
 
 
 class Album {
@@ -34,7 +43,7 @@ class Album {
     }
 }
 
-var album:Album = Album(name: "Oasis", price: "1.99", artistURL: "www.artist.com")
+var album:Album = Album(name: "Oasis", price: "1.99", artistURL: nil)
 
 album.title = "Oasis"
 
